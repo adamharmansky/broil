@@ -57,6 +57,8 @@ main (int argc, char** argv) {
 			die("Couldn't create scaled image!");
 		imlib_context_set_image(scaled_image);
 	}
+	w = imlib_image_get_width();
+	h = imlib_image_get_height();
 
 	for (i = 0; i < h; i+=4) {
 		for (j = 0; j < w; j+=2) {

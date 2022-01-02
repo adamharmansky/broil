@@ -8,4 +8,4 @@ install: all
 	install broil /usr/bin
 
 clean:
-	rm broil
+	rm -f broil
