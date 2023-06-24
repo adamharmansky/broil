@@ -1,6 +1,6 @@
 # Broil
 
-A suckless image-to-braille converter using Imlib2.
+A simple image-to-braille converter using Imlib2.
 
 ![](broil.gif)
 
